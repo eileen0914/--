@@ -1,0 +1,15 @@
+switch (i)
+ {
+    case 0:
+    Console.WriteLine("麵麵");
+    break;
+    case 1:
+    Console.WriteLine("飯糰");
+    break;
+    case 2:
+    Console.WriteLine("咩咩");
+    break;
+    default:
+    Console.WriteLine("ㄅ曉得");
+    break;
+}

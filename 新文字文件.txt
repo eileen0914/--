@@ -1,15 +1,22 @@
-switch (i)
- {
+switch(i)
+{
     case 0:
-    Console.WriteLine("麵麵");
-    break;
+      food = "曾麗珍";
+      break;
     case 1:
-    Console.WriteLine("飯糰");
-    break;
+      food = "珍奶";
+      break;
     case 2:
-    Console.WriteLine("咩咩");
-    break;
-    default:
-    Console.WriteLine("ㄅ曉得");
-    break;
+      food = "榛果巧克力";
+      break;
+    case 3:
+      food = "巧克力鬆餅";
+      break;
+    case 4:
+      food = "炸雞";
+      break;
+    case 5:
+      food = "奶茶";
+      break;
 }
+Console.WriteLine("Random recommendation: "+ food +" . ");
